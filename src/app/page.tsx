@@ -1,8 +1,15 @@
-import HeroSectionOne from "@/components/hero-section-demo-1"
+import { FloatingNav } from '@/components/ui/floating-navbar';
+import { navItems } from '@/lib/constants';
+import Hero from '@/sections/Hero';
 
 const HomePage = () => {
   return (
-    <div><HeroSectionOne /></div>
-  )
-}
-export default HomePage
+    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto ">
+      <div className="max-w-7xl w-full">
+        <FloatingNav navItems={navItems} />
+        <Hero />
+      </div>
+    </main>
+  );
+};
+export default HomePage;
