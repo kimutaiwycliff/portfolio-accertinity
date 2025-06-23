@@ -1,6 +1,6 @@
 # 🌍 Wycliff Kimutai - Full-Stack & GIS Developer Portfolio
 
-[![Portfolio Screenshot](/public/screenshot.png)](https://your-portfolio-link.com)
+[![Portfolio Screenshot](/public/screenshot.png)](https://wycliffkimutai.vercel.app/)
 *Click to explore the live site!*
 
 Welcome to my interactive portfolio—where **geospatial engineering** meets **modern web development**. Built with Next.js, Tailwind CSS, and a sprinkle of GIS magic.
