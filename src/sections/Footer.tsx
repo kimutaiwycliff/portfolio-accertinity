@@ -6,9 +6,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 const Footer = () => {
 
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20" id="contact">
       {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+      <div className="w-full absolute left-0 -bottom-4 min-h-96">
         <Image
           src="/footer-grid.svg"
           alt="grid"
