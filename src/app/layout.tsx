@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Wycliff Kimutai',
+  title: "Hey. I'm Wycliff Kimutai",
   description: 'Wycliff Kimutai portfolio',
 };
 

@@ -1,3 +1,4 @@
+import AnimateInView from '@/components/AnimatedInview';
 import { FlipWords } from '@/components/ui/flip-words';
 import { Button } from '@/components/ui/moving-border';
 import { Timeline } from '@/components/ui/timeline';
@@ -78,17 +79,19 @@ const Experience = () => {
       <div>
         <Timeline data={data} />
       </div>
-      <div>
-        <Link
-          href="/Resume.pdf"
-          download={true}
-          className={`flex flex-col items-center justify-center -rotate-6 `}
-        >
-          <Button borderRadius="0.5rem" className="p-3 font-semibold ">
-            <p>📝 Get Full CV</p>
-          </Button>
-        </Link>
-      </div>
+      <AnimateInView animation="slideLeft" duration={0.8} delay={0.6}>
+        <div>
+          <Link
+            href="/Resume.pdf"
+            download={true}
+            className={`flex flex-col items-center justify-center -rotate-6 `}
+          >
+            <Button borderRadius="0.5rem" className="p-3 font-semibold ">
+              <p>📝 Get Full CV</p>
+            </Button>
+          </Link>
+        </div>
+      </AnimateInView>
     </div>
   );
 };
