@@ -14,7 +14,7 @@ const RecentProjects = () => {
         A small selection of <ColourfulText text="recent projects" />
       </h1>
 
-      <div className="grid grid-cols-3 items-center justify-center p-4 gap-16 mt-10">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 sm:mx-30 md:mx-0 items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <Link
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
