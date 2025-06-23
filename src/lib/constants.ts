@@ -73,7 +73,7 @@ export const projects = [
     id: 1,
     title: "Ardhisasa Land Parcel Management",
     des: "Led development of Kenya's national land registry GIS plugin (QGIS + PostGIS) processing 10K+ parcels daily with automated Python workflows.",
-    img: "/gis-webapp.svg", // hypothetical image
+    img: "/p1.svg", // hypothetical image
     iconLists: ["/postgresql.svg", "/python.svg", "/qgis.svg", "/react.svg", "/docker.svg"],
     link: "https://ardhisasa.go.ke",
   },
@@ -81,7 +81,7 @@ export const projects = [
     id: 2,
     title: "Solar Potential Web Dashboard",
     des: "Built a Next.js geospatial analytics platform for renewable energy site selection with real-time Leaflet.js visualizations.",
-    img: "/solar-map.svg",
+    img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/leaflet.svg", "/python.svg"],
     link: "https://github.com/yourusername/solar-dashboard",
   },
@@ -89,7 +89,7 @@ export const projects = [
     id: 3,
     title: "GeoServer Cloud Cluster",
     des: "Architected a high-availability GeoServer deployment on AWS with Terraform, serving vector/raster data with sub-second response times.",
-    img: "/cloud-geo.svg",
+    img: "/p3.svg",
     iconLists: ["/aws.svg", "/terraform.svg", "/docker.svg", "/kubernetes.svg", "/prisma.svg"],
     link: "https://medium.com/your-blog/geoserver-aws-case-study",
   },
@@ -97,7 +97,7 @@ export const projects = [
     id: 4,
     title: "Surveyor Fieldwork Toolkit",
     des: "React Native mobile app with offline-first GPS data collection and Mapbox visualization for road construction surveys.",
-    img: "/survey-app.svg",
+    img: "/p4.svg",
     iconLists: ["/react.svg", "/mapbox.svg", "/node.svg", "/mongodb.svg", "/prisma.svg"], // RTK for GPS tech
     link: "https://apps.apple.com/your-app",
   },
@@ -106,34 +106,37 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Wycliff transformed our land registry workflows with his QGIS plugin - processing thousands of parcels daily with Python automation. His ability to bridge GIS and web development is rare and valuable.",
+    name: "Jeffrey Mwai",
+    title: "Technical Lead, Konza Silicon Company",
+    // From your references list
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The solar potential dashboard Wycliff built reduced our site assessment time by 40%. He thinks like a geospatial engineer but delivers like a senior full-stack developer.",
+    name: "Bell Power Team",
+    title: "Renewable Energy Solutions Provider",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "When we needed sub-second GeoServer response times for critical infrastructure projects, Wycliff's AWS/Terraform implementation exceeded all benchmarks. He's our cloud GIS guru.",
+    name: "Joshua Mwaura",
+    title: "Managing Director, Openmaps Limited",
+    // From your references list
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Wycliff's survey toolkit app became our field teams' favorite tool overnight. The offline-first design with React Native saved us countless hours in remote areas.",
+    name: "KAAD Engineering Team",
+    title: "Garad-Galkayo Road Project",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "Few developers understand both PostGIS optimization and UI/UX principles. Wycliff's admin portal for county land offices became the gold standard across our departments.",
+    name: "Dr. Victor K. Boiyo",
+    title: "Deputy VC, USIU Africa",
+    // From your references list
+  }
 ];
 
 export const companies = [
