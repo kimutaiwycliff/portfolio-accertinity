@@ -172,32 +172,58 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: 'Front-End Developer',
+    description: [
+      'Designed and developed user interfaces using Angular.',
+      'Collaborated with backend developers to integrate APIs and optimize performance.',
+      'Ensured responsive design and cross-browser compatibility.',
+      'Implemented best practices in UI/UX to enhance user experience.',
+    ],
+    date: '09/2023 - Present',
+    company: 'Konza Silicon Company Limited',
+    position: 'left',
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: 'Senior GIS Desktop Developer',
+    description: [
+      'Developed GIS desktop applications for Windows and Linux.',
+      'Created QGIS plugins and wrote Python scripts for geoprocessing automation.',
+      'Conducted spatial data analysis using pandas and geopandas.',
+      'Built web applications and data dashboards using Python.',
+      'Managed and rendered spatial data using Geoserver and POSTGIS.',
+      'Deployed applications using Docker Swarm and Kubernetes.',
+      'Developed web maps for data visualizations using folium and dash libraries.',
+    ],
+    date: '09/2022 - 09/2023',
+    company: 'Konza Silicon Company Limited',
+    position: 'right',
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: 'Geospatial Engineer',
+    description: [
+      'Conducted spatial analysis to identify optimal locations for renewable energy installations.',
+      'Collected, managed, and analyzed spatial data to support project planning and monitoring.',
+      'Utilized GIS to assess the environmental impact of proposed energy projects.',
+      'Developed automated workflows to improve operational efficiency and data analysis accuracy.',
+      'Implemented GIS solutions to optimize the planning and management of energy infrastructure.',
+    ],
+    date: '02/2022 - 09/2022',
+    company: 'Bell Power International',
+    position: 'left',
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: 'Lead Surveyor',
+    description: [
+      'Successfully conducted topographic surveys and design reviews for highway construction.',
+      'Established control points and benchmarks for accurate road construction using static survey techniques.',
+      'Mapped and analyzed terrain to identify potential challenges and opportunities.',
+      'Ensured alignment with project timelines and milestones through efficient survey planning and execution.',
+      'Implemented precise land surveys to establish boundaries and right-of-way considerations.',
+      'Developed comprehensive survey reports to guide decision-making in the early stages of the road project.',
+    ],
+    date: '07/2021 - 02/2022',
+    company: 'KAAD, Somalia',
+    position: 'right',
   },
 ];
 
